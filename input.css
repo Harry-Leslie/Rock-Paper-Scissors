@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-colour-404747{
+    background-color: #404747;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .container-flex{
+        flex-direction: column;
+    }
+}
